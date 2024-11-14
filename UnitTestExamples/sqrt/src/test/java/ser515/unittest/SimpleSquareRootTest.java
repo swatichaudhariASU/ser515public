@@ -13,6 +13,17 @@ class SimpleSquareRootTest {
 	assertEquals(0.0, SimpleSquareRootFunction.makeSqrt(1));
     }
 
+    @Test
+    void testzeroMakeSqrt() {
+	assertEquals(0.0, SimpleSquareRootFunction.makeSqrt(0));
+    }
+
+    @Test
+    void testzerosquareMe() {
+	assertEquals(0, SimpleSquareRootFunction.squareMe(0));
+    
+}
+
     //@Disabled("Don't want to run this just yet")
     //@Test
     //void testDisabled() {
